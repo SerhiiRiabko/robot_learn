@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-21T16:03:20.180273" rpa="false" schemaversion="5">
+<suite id="s1" name="Open App Post-It" source="C:\Users\Serhii\PycharmProjects\Post-It-Appium\Tests\Open_App_Post-It.robot">
+<test id="s1-t1" name="Open_App_PostIt" line="5">
+<kw name="AppiumLibrary.Open Application">
+<msg time="2024-04-21T16:03:20.373999" level="FAIL">No keyword with name 'AppiumLibrary.Open Application' found.</msg>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=emulator-5554</arg>
+<arg>appPackage=com.mmm.postit</arg>
+<arg>appActivity=com.mmm.postit.MainActivity</arg>
+<arg>automationName=UiAutomator2</arg>
+<status status="FAIL" start="2024-04-21T16:03:20.373999" elapsed="0.000000">No keyword with name 'AppiumLibrary.Open Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-04-21T16:03:20.372999" elapsed="0.001000">No keyword with name 'AppiumLibrary.Open Application' found.</status>
+</test>
+<status status="FAIL" start="2024-04-21T16:03:20.181170" elapsed="0.194836"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Open App Post-It">Open App Post-It</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-21T16:03:20.370997" level="ERROR">Error in file 'C:\Users\Serhii\PycharmProjects\Post-It-Appium\Tests\Open_App_Post-It.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+Traceback (most recent call last):
+  File "C:\Users\Serhii\PycharmProjects\3m-testcases\.venv\Post-It-Appium\Lib\site-packages\AppiumLibrary\__init__.py", line 4, in &lt;module&gt;
+    from AppiumLibrary.keywords import *
+  File "C:\Users\Serhii\PycharmProjects\3m-testcases\.venv\Post-It-Appium\Lib\site-packages\AppiumLibrary\keywords\__init__.py", line 9, in &lt;module&gt;
+    from ._touch import _TouchKeywords
+  File "C:\Users\Serhii\PycharmProjects\3m-testcases\.venv\Post-It-Appium\Lib\site-packages\AppiumLibrary\keywords\_touch.py", line 3, in &lt;module&gt;
+    from appium.webdriver.common.touch_action import TouchAction
+PYTHONPATH:
+  C:\Users\Serhii\PycharmProjects\3m-testcases\.venv\Post-It-Appium\Scripts\robot.exe
+  C:\Users\Serhii\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Serhii\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Serhii\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Serhii\AppData\Local\Programs\Python\Python312
+  C:\Users\Serhii\PycharmProjects\3m-testcases\.venv\Post-It-Appium
+  C:\Users\Serhii\PycharmProjects\3m-testcases\.venv\Post-It-Appium\Lib\site-packages</msg>
+</errors>
+</robot>
